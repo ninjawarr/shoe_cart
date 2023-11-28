@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato',sans-serif;
+}
+nav{
+    color: white;
+   background-color: black; 
+   padding :20px 50px;
+}
+.navtop{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.search{
+    display: flex;
+    align-items: center;
+    background-color:gray;
+    padding :10px;
+    border-radius: 10px;
+}
+.searchInput{
+    border: none;
+    background-color: transparent;
+}
+.searchInput ::placeholder{
+   color: rgb(170, 145, 145); 
+   
+}
+.limitedoffer{
+    font-size: 20px;
+    border-bottom:2px solid green;
+    cursor: pointer;
+}
+.navbottom{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+}
+.menuitem{
+  margin-right:50px ; 
+  cursor: pointer;
+  color: lightgrey;
+  font-weight: 400; 
+}
+.slider{
+    background: url("https://media.istockphoto.com/id/915097804/photo/black-brick-wall-background-texture-dark-masonry.jpg?s=612x612&w=is&k=20&c=7DTNm-64X83VDtLeuF-OV-7iW2yrGZ7eu-Tky_k_TzA=");
+}
+.classwrapper{
+    display: flex;
+    width: 500vw;
+    transition: all 1.5s ease-in-out;
+}
+.slidebackgrnd{
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    position:absolute;
+    
+}
+.sliderimage{
+    z-index: 1;
+}
+.slideritem{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+.slidertitle{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    color: white;
+    z-index: 1;
+
+}
+.sliderprice{
+    position: absolute;
+  top: 10%;
+  left: 10%;
+  font-size: 60px;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+  border: 1px solid gray;
+  z-index: 1;
+}
+.buybutton{
+    position: absolute;
+  top: 50%;
+  right: 10%;
+  font-size: 30px;
+  font-weight: 900;
+  color: white;
+  border: 1px solid gray;
+  background-color: black;
+  z-index: 1;
+  cursor: pointer;
+
+}
+.buybutton:hover{
+    background-color: white;
+    color:black;
+} 
+.slideritem:nth-child(1) .slidebackgrnd{
+    background-color: rgb(145, 189, 174);
+}
+.slideritem:nth-child(2) .slidebackgrnd{
+    background-color: rgb(66, 10, 145);
+}
+.slideritem:nth-child(3) .slidebackgrnd{
+    background-color: rgb(189, 145, 179);
+}
+.slideritem:nth-child(4) .slidebackgrnd{
+    background-color: rgb(185, 189, 145);
+}
+.slideritem:nth-child(5) .slidebackgrnd{
+    background-color: rgb(145, 189, 174);
+}
+.slideritem:nth-child(1) .sliderprice{
+    background-color: rgb(145, 189, 174);
+}
+.slideritem:nth-child(2) .sliderprice{
+    background-color: rgb(66, 10, 145);
+}
+.slideritem:nth-child(3) .sliderprice{
+    background-color: rgb(189, 145, 179);
+}
+
+.slideritem:nth-child(4) .sliderprice{
+    background-color: rgb(185, 189, 145);
+}
+.slideritem:nth-child(5) .sliderprice{
+    background-color: rgb(145, 189, 174);
+}
+.slideritem:nth-child(1) .slidertitle{
+    background-color: rgb(145, 189, 174);
+}
